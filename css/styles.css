@@ -1,0 +1,52 @@
+/* Custom Styles */
+
+*{
+	font-family: 'Titillium Web', sans-serif;
+}
+
+body{
+	background-image: url("https://th.bing.com/th/id/R.c446730aaace7693927f0f9aae912c6f?rik=6Bge%2fdKLD7SqWg&riu=http%3a%2f%2fwww.9minecraft.net%2fwp-content%2fuploads%2f2019%2f08%2fWild-Nature-mod-for-minecraft-21.jpg&ehk=0NbMLZl%2bPg4iY7MG5V7f4kwkLsN3q934MX4Jyd%2bB%2fH0%3d&risl=&pid=ImgRaw&r=0");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size: cover;
+}
+
+h2{
+	margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+img{
+	margin-bottom: 15px;
+}
+
+/* Sticky footer styles */
+
+html, body {
+	height: 100%;
+}
+
+.wrap {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+.footer {
+	height: 60px;
+	padding-top: 20px;
+	background-color: #f8f8f8;
+    border-color: #e7e7e7;
+}
+
+div.panel{
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+/* reduce container with*/
+@media (min-width: 1200px){
+	.container {
+    	width: 1000px;
+	}
+}
